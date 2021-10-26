@@ -8,7 +8,7 @@ for i in range(2,n):
     K.append(i)
 
 p=2
-while p**2<n:
+while p**3<n:
     for i in range(p-1,len(K)):
         if K[i]%p==0:
             K[i]=0
